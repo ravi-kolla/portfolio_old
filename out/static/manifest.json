@@ -1,0 +1,24 @@
+{
+	"name":"Ravi Teja Kolla",
+	"short_name":"Ravi Kolla",
+	"start_url":"/",
+	"background_color":"#3498BD",
+	"theme_color":"#fff",
+	"orientation":"any",
+	"display":"standalone",
+	"dir":"ltr",
+	"lang":"en-US",
+	"description":"Ravi Teja Kolla Portfolio",
+	"icons": [
+	  {
+		"src": "/static/icon-192.png",
+		"type": "image/png",
+		"sizes": "192x192"
+	  },
+	  {
+		"src": "/static/icon-512.png",
+		"type": "image/png",
+		"sizes": "512x512"
+	  }
+	]
+}
