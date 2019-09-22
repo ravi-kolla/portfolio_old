@@ -18,52 +18,76 @@ const ImgGroup = (props) => {
 	return(
 	<div className="container flex flex-wrap mt-20 mb-10">
 		{Imgroup}
-	</div>	
+	</div>
 	);
 }
 class Album extends Component {
 	constructor(props){
 		super(props);
 		this.state={images:[
-		   {
-				"src": "../static/wtc.jpg",
-				"name": "One World Trade Center",
-				"id": 1
+			{
+			 "src": "../static/wtc.jpg",
+			 "name": "One World Trade Center",
+			 "id": 1
+		 	},{
+				"src": "../static/liberty.jpg",
+				"name": "Statue of liberty",
+				"id": 2
+			},{
+			 "src": "../static/bull.jpg",
+			 "name": "Bull",
+			 "id": 3
+		 	},{
+				"src": "../static/horseshoe.jpg",
+				"name": "Horse shoe",
+				"id": 4
+			},{
+			 "src": "../static/nature3.jpg",
+			 "name": "Nature",
+			 "id": 5
+		 	},{
+				"src": "../static/flowers1.jpg",
+				"name": "Nature",
+				"id": 6
+			},{
+				"src": "../static/beach.jpg",
+				"name": "Nature",
+				"id": 7
 			},{
 				"src": "../static/satue1.jpg",
 				"name": "Statue",
-				"id": 2
+				"id": 8
 			},{
 				"src": "../static/nature1.jpg",
 				"name": "Nature tower",
-				"id": 3
+				"id": 9
 			},{
 				"src": "../static/bird1.jpg",
 				"name": "Peapock",
-				"id": 4
+				"id": 10
 			},{
 				"src": "../static/nature2.jpg",
 				"name": "Irish Hunger Memorial",
-				"id": 5
+				"id": 11
 			},{
 				"src": "../static/arch1.jpg",
 				"name": "Red Cude Newyork",
-				"id": 6
+				"id": 12
 			},{
 				"src": "../static/decoration1.jpg",
 				"name": "Interior decoration",
-				"id": 7
+				"id": 13
 			}
 		]}
 	}
-	
+
 	render(){
 		return(
 			<Layout>
 				<main>
-					<ImgGroup images={this.state.images} />	
+					<ImgGroup images={this.state.images} />
 				</main>
-			</Layout>	
+			</Layout>
 		);
 	}
 }

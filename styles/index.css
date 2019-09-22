@@ -72,15 +72,18 @@ body {
 }
 body {
 	font: 300 15px/1.6 'Raleway', serif, sans-serif !important;
-	color: #545454 !important;
+	background-color: #000 !important;
 }
 a{
 	text-decoration: none !important;
-}	
+}
 h1, h2, h3, h4, h5, h6 {
 	font: 400 46px/1.2 'Montserrat', serif, sans-serif !important;
 	margin: 5px 0 5px !important;
-	color: #222 !important;
+	color: #fff !important;
+}
+p {
+  color: #fff !important;
 }
 h1 {
     font-size: 64px !important;
@@ -106,7 +109,10 @@ h5 {
 }
 a {
 	font: 300 15px/1.6 'Raleway', serif, sans-serif !important;
-	color: #222 !important;
+	color: #fff !important;
+}
+.nav-link {
+  color: #222 !important;
 }
 hr {
     margin-top: 20px !important;
@@ -140,65 +146,15 @@ hr {
 }
 .w-250{
 	width: 250px;
-}	
+}
 .cursor{
 	transform:scale(0.1,0.1);
-}
-.mouse-icon-div {
-    position: relative;
-    height: 55px;
-    width: 35px;
-    margin: 0 auto;
-    display: block;
-}
-.mouse-icon {
-    position: relative;
-    border: 2px solid #000;
-    border-radius: 16px;
-    height: 50px;
-    width: 30px;
-    margin: 0 auto;
-    display: block;
-    z-index: 10;
-}
-.mouse-icon .wheel {
-    position: relative;
-    border-radius: 10px;
-    background: #000;
-    width: 4px;
-    height: 10px;
-    top: 4px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.mouse-icon .wheel {
-	animation-name: drop;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-}
-@keyframes drop
-{
-	0% {
-		top: 5px;
-		opacity: 0;
-	}
-	30% {
-		top: 10px;
-		opacity: 1;
-	}
-	100% {
-		top: 25px;
-		opacity: 0;
-	}
 }
 .linkedin{
 	color:#0077B5;
 }
-.bitbucket{
-	color:#2684ff;
+.github{
+	color:#fff;
 }
 .author{
 	border-radius: 50%;
