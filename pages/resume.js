@@ -55,7 +55,7 @@ export default () => (
 						</div>
 						<div className="md:flex lg:w-3/4">
 							<div className="lg:w-3/4 px-2 lg:pl-2 md:w-3/4 sm:w-full">
-								<h4>Software Engineer, UI</h4>
+								<h4>Software Engineer</h4>
 								<p>working on creating templates and components for Homepage application using Adobe Experience Manager which includes writing of Java classes, Sightly scripting, JavaScript scripting and jUnit test cases. Also, handles devops process</p>
 								<hr className="hidden md:block"/>
 							</div>
@@ -72,13 +72,13 @@ export default () => (
 						</div>
 						<div className="md:flex lg:w-3/4">
 							<div className="lg:w-3/4 md:w-3/4 sm:w-full px-2">
-								<h4>Software Engineer, UI</h4>
+								<h4>UI Engineer</h4>
 								<p>Creation and maintanence of organization user interfaces</p>
 								<hr className="hidden md:block"/>
 							</div>
 							<div className="lg:w-1/4 md:w-1/4 sm:w-full px-2">
-								<h4>Inforaise Technologies</h4>
-								<p>April 2013- Dec 2013</p>	
+								<h4>Mindlease Inc</h4>
+								<p>Sep 2015- Aug 2019</p>	
 								<hr className="md:hidden sm:block"/>
 							</div>
 						</div>	
